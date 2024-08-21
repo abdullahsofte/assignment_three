@@ -1,28 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
-<body>
+
+<body class="manrope-font">
     <!-- header part start -->
-     <header>
+    <header>
+        <div class="container">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li class="hover:text-black-50"><a>Home</a></li>
+                            <li class="hover:text-black-50"><a>Services</a></li>
+                            <li class="hover:text-black-50"><a>Protfolio</a></li>
+                            <li class="hover:text-black-50"><a>Blogs</a></li>
+                            <li class="hover:text-black-50"><a>Contact us</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn bg-transparent text-4xl font-extrabold"><span
+                            class="bg-[#ABEF5F] text-white rounded-full text-base h-8 w-8 leading-8 rotate-[-45deg]"><i
+                                class="fa-solid fa-arrow-right"></i></span>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="hover:text-black-50"><a>Home</a></li>
+                        <li class="hover:text-black-50"><a>Services</a></li>
+                        <li class="hover:text-black-50"><a>Protfolio</a></li>
+                        <li class="hover:text-black-50"><a>Blogs</a></li>
+                        <li class="hover:text-black-50"><a>Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
 
-     </header>
+                    <span
+                        class="bg-white text-gray rounded-full text-base text-center h-10 w-10 leading-10 border-solid border-2 border-slate-200 me-3"><i
+                            class="fa-solid fa-magnifying-glass"></i></span>
+                    <span
+                        class="bg-white text-gray rounded-full text-base text-center h-10 w-10 leading-10 border-solid border-2 border-slate-200 me-3"><i
+                            class="fa-solid fa-cart-shopping"></i></span>
+                    <a class="btn font-extrabold text-xl bg-[#ABEF5F]">Book Consult <span
+                            class="bg-[#1C1C1C] text-white rounded-full text-base h-8 w-8 leading-8 rotate-[-45deg]"><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
     <!-- header part end -->
-     <!-- main part start -->
-      <main>
+    <!-- main part start -->
+    <main>
 
-      </main>
-     <!-- main part end -->
-      <!-- footer part start -->
-       <footer>
+       
 
-       </footer>
-      <!-- footer part end -->
-    
+    </main>
+    <!-- main part end -->
+    <!-- footer part start -->
+    <footer class="footer footer-center bg-[#1C1C1C] text-base-content rounded p-5">
+        <h1 class="text-4xl font-extrabold text-white">
+            <span class="bg-[#ABEF5F] text-white rounded-full text-base h-8 w-8 leading-8 rotate-[-45deg]"><i
+                class="fa-solid fa-arrow-right"></i></span> 
+            <a href="">Rinterio</a>
+        </h1>
+        <p class="text-[#737373] font-medium text-base">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        <nav class="grid grid-flow-col gap-6 text-white">
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <div class="grid grid-flow-col gap-4">
+                <a class="btn font-extrabold text-xl bg-[#ABEF5F]">Book Consult <span
+                    class="bg-[#1C1C1C] text-white rounded-full text-base h-8 w-8 leading-8 rotate-[-45deg]"><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+        </nav>
+       
+    </footer>
+    <!-- footer part end -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+
 </body>
+
 </html>
